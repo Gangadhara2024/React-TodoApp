@@ -1,0 +1,24 @@
+
+.activelink {
+  color: rgb(2, 116, 32);
+}
+.link {
+  color: rgb(250, 0, 0);
+}
+.navbar {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.link {
+  text-decoration: none;
+  color: #070404;
+  font-size: 1.1rem;
+  background-color: #b4a8a8;
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+.active-link {
+  color: rgb(74, 67, 255);
+  font-weight: 700;
+}

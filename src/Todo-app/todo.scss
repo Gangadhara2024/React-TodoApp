@@ -1,0 +1,33 @@
+.todomain {
+  text-align: center;
+}
+
+.todomain > input {
+  width: 500px;
+  padding: 10px 12px;
+  flex-wrap: wrap;
+}
+.todomain > button {
+  padding: 20px 22px;
+  margin-left: 4px;
+  font-size: 16px;
+}
+.todolist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  border: 1px solid red;
+  input {
+    width: 50px;
+    border: none;
+    overflow: hidden;
+  }
+  button {
+    background-color: rgb(251, 146, 0);
+  }
+}
+.line {
+  text-decoration: line-through;
+}
